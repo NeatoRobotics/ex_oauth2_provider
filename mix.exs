@@ -39,13 +39,13 @@ defmodule ExOauth2Provider.Mixfile do
       {:jason, "~> 1.2"},
 
       # Dev and test dependencies
-      {:credo, "~> 1.5", only: [:dev, :test]},
+      {:credo, "~> 1.6", only: [:dev, :test]},
 
       {:ex_doc, "~> 0.25", only: :dev},
 
       {:ecto_sql, "~> 3.10", only: :test},
-      {:plug_cowboy, "~> 2.0", only: :test},
-      {:postgrex, "~> 0.14", only: :test}]
+      {:plug_cowboy, "~> 2.6", only: :test},
+      {:postgrex, "~> 0.16", only: :test}]
   end
 
   defp package do

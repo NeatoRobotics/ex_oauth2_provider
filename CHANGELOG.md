@@ -64,3 +64,4 @@ Config now has the form `config :my_app, ExOauth2Provider`. You can still use th
 If your configuration has `:resource_owner` setting with a UUID, you should remove it and only use the module name for your user schema. UUID is now handled in the schema modules directly.
 
 The schemas can be generated with `mix ex_oauth2_provider.install --no-migrations --binary-id`.
+
